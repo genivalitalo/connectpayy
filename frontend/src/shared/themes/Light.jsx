@@ -1,5 +1,6 @@
 import { createTheme } from "@mui/material";
 import { deepOrange } from "@mui/material/colors";
+import '@fontsource/poppins/500.css'
 
 export const LightTheme = createTheme({
     palette: {
@@ -10,8 +11,11 @@ export const LightTheme = createTheme({
             contrastText: '#ffffff'
         },
         background: {
-            default: '#ffffff',
-            paper: '#F7F7F7',
-        }
-    }
+            default: '#f7f7f7',
+            paper: '#ffffff',
+        },
+            },
+    typography: {
+        fontFamily:'poppins',
+    },
 });
